@@ -8,27 +8,6 @@ list = [1, 1, 2, 0, -1, 3, 4, 4]
 list_temp = {}
 for i in list:
     if i not in list_temp:
-        list_temp[i] = True
+        list_temp[i] = list[i]
 count = len(list_temp)
 print(count)
-
-
-
-
-
-
-  
-
-
-
-
-# s = "ОООООООООО"
-# n = 0
-
-# while "О"*n in s:
-#     n += 1
-
-# print(n - 1)
-
-
-
