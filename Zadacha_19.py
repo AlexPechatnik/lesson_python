@@ -5,11 +5,18 @@
 # Output:  [4, 5, 1, 2, 3]
 # Примечание: Пользователь может вводить значения списка или список задан изначально.
 
+# list = [1, 2, 3, 4, 5, 5]
+# print(len(set(list)))
+# print(set(list))
+
+# my_set = {1, 2, 3}
+# my_set.add(4)
+# print(my_set)
+
 
 list = [1, 2, 3, 4, 5]
-s = len(list)
-k = 2
-list_temp = list
-for i in list:
-    list_temp[i] =
-    print(list_temp)
+k = 1
+if len(list)>k:
+    print(list[:k])
+else:
+    print(list)
