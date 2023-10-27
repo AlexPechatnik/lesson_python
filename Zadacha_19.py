@@ -14,9 +14,16 @@
 # print(my_set)
 
 
-list = [1, 2, 3, 4, 5]
-k = 1
-if len(list)>k:
-    print(list[:k])
-else:
-    print(list)
+list_1 = [1, 2, 3, 4, 5]
+k = 2
+list_2 = {}
+# if len(list)>k:
+#     print(list[k:]+list[:k])
+# else:
+#     print(list)
+if len(list_1) >= k:
+    list_1.insert()
+
+
+
+print(list_2)
